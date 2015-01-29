@@ -21,15 +21,29 @@
 // 	};
 
 
-//3
-	// console.log("=================== Number 3");
+// //3
+// 	console.log("=================== Number 3");
+// 		var backup = animals.reverse();
+// 	for (var i = 0; i < backup.length ; i++){
+// 		console.log(backup[i]);
+// 	};
 
-	// for (var i = 0; i < animals.length ; i++){
-	// 	var backwards = animals.reverse();
-	// 	// var backwards = sorted.reverse();
-	// 	console.log(backwards);
+
+	//4
+		console.log("=================== Number 4");
+
+		for (var i = 0; i < animals.length ; i++){
+			console.log(animals[i]);
+			if (animals[i] === animals[1]){
+				console.log(animals[1]);
+			}
+			if (animals[i] === animals[2]){
+				console.log(animals[2]);
+			}
+			if (animals[i] === animals[3]){
+				console.log(animals[3]);
+			}
+		};
 
 
-	// };
-	var backup = animals.reverse();
-	console.log(backup);
+	
